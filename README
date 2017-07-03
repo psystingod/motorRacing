@@ -1,0 +1,13 @@
+
+Se instalo la librería SDL para el manejo de el sonido, de no tenerlo instalado previamente debera instalarse con este comando. 
+
+apt-get install libsdl-dev
+( como usuario root/)
+
+Ahora para poder compilar el proyecto lo hacemos con la siguiente linea de comando 
+
+g++ main.cpp -o Proyecto_Final -lGLU -lGL -lglut -lSOIL -lSDL
+
+Y Luego para ejecutarlo
+
+./Proyecto_Final
