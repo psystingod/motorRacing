@@ -1,3 +1,6 @@
+Nombre del mini juego: "Motor Racing"
+*************************************
+
 Presentado por:
 ***************
 
@@ -9,16 +12,20 @@ Pedro José Andrade Serpas
 Mario Jehudi Cruz Ramirez
 ###################################
 
+-------------------------------------------------------------
+Repositorio GitHub: https://github.com/psystingod/motorRacing
+-------------------------------------------------------------
 
-Se instalo la librería SDL para el manejo de el sonido, de no tenerlo instalado previamente debera instalarse con este comando. 
 
-apt-get install libsdl-dev
+1- Se instalo la librería SDL para el manejo de el sonido, de no tenerlo instalado previamente   debera instalarse con este comando. 
+
+2- apt-get install libsdl-dev
 ( como usuario root/)
 
-Ahora para poder compilar el proyecto lo hacemos con la siguiente linea de comando 
+3- Ahora para poder compilar el proyecto lo hacemos con la siguiente linea de comando 
 
 g++ main.cpp -o Proyecto_Final -lGLU -lGL -lglut -lSOIL -lSDL
 
-Y Luego para ejecutarlo
+4- Y Luego para ejecutarlo
 
 ./Proyecto_Final
